@@ -74,25 +74,10 @@ void PrintArray(string[] array)
     {
         Console.WriteLine("пустой массив");
     }
-/*
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write("\"" + array[i] + "\"");
-        if (i < array.Length - 1)
-        {
-            Console.Write(", ");
-        }
-        else
-        {
-            Console.WriteLine("");
-        }
-    }
-    */
 }
 
 
-//string[] input = new string[] { "Hello", "2", "World", ":-)" };
-string[] input = new string[] { "Kazan", "Moscow", "Denmark", "Chelyabinsk" };
+string[] input = new string[] { "Hello", "2", "World", ":-)" };
 string[] result = GetFilteredItems(input, 3);
 
 PrintArray(input);
